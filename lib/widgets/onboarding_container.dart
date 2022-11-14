@@ -58,7 +58,7 @@ class OnboardingContainer extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.all(20.0),
               child: SizedBox(
-                width: MediaQuery.of(context).size.width - 20,
+                width: MediaQuery.of(context).size.width - 50,
                 child: Text(
                   description,
                   textAlign: TextAlign.center,

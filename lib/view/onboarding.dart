@@ -35,9 +35,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     width: MediaQuery.of(context).size.width / 2,
                   ),
                 ),
-                 const Padding(
-                   padding: EdgeInsets.only(bottom:250),
-                   child: Align(
+                const Padding(
+                  padding: EdgeInsets.only(bottom: 250),
+                  child: Align(
                     alignment: Alignment.bottomCenter,
                     child: Text(
                       'COMENZÁA A VIVIR TU',
@@ -48,11 +48,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           fontStyle: FontStyle.italic,
                           fontSize: 20),
                     ),
-                                 ),
-                 ),
-                 const Padding(
-                   padding: EdgeInsets.only(bottom:200),
-                   child: Align(
+                  ),
+                ),
+                const Padding(
+                  padding: EdgeInsets.only(bottom: 200),
+                  child: Align(
                     alignment: Alignment.bottomCenter,
                     child: Text(
                       'NT EXPERIENCE',
@@ -63,9 +63,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           fontStyle: FontStyle.italic,
                           fontSize: 40),
                     ),
-
-                                 ),
-                 )
+                  ),
+                )
               ],
             ),
             const OnboardingContainer(
@@ -115,12 +114,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         color: Colors.black,
                         borderRadius: BorderRadius.circular(2),
                         dotBorder: const DotBorder(
-                          
                           padding: 2,
                           width: 1,
                           color: Color.fromRGBO(23, 245, 129, 1),
                         ),
-                        
                       ),
                       dotDecoration: DotDecoration(
                         width: 8,
