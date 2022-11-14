@@ -63,7 +63,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           fontStyle: FontStyle.italic,
                           fontSize: 40),
                     ),
-                    
+
                                  ),
                  )
               ],
@@ -113,18 +113,20 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                         width: 8,
                         height: 8,
                         color: Colors.black,
-                        borderRadius: BorderRadius.circular(24),
+                        borderRadius: BorderRadius.circular(2),
                         dotBorder: const DotBorder(
+                          
                           padding: 2,
                           width: 1,
                           color: Color.fromRGBO(23, 245, 129, 1),
                         ),
+                        
                       ),
                       dotDecoration: DotDecoration(
                         width: 8,
                         height: 8,
                         color: Colors.grey,
-                        borderRadius: BorderRadius.circular(16),
+                        borderRadius: BorderRadius.circular(2),
                         verticalOffset: 0,
                       ),
                       spacing: 6.0,
