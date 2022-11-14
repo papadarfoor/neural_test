@@ -22,7 +22,8 @@ class OnboardingContainer extends StatelessWidget {
           width: double.infinity,
           alignment: Alignment.center,
         ),
-        const SafeArea(
+        const Padding(
+          padding: EdgeInsets.only(top:92.0),
           child: Align(
               alignment: Alignment.topCenter,
               child: Text(
